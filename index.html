@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tech-Base Management Community — Learn by Doing. Think by Solving. Grow by Building.</title>
+
+<meta name="description" content="Tech-Base Management Community is a technology-inspired, volunteer-led management community connecting students, graduates and professionals across India through collaborative learning, business research, practical projects, open knowledge and AI-driven innovation." />
+<meta name="keywords" content="management community, business analytics, market research, student consulting, case competition, business intelligence, AI for business, India" />
+<meta name="author" content="Tech-Base Management Community" />
+<meta name="theme-color" content="#6C3BCE" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Tech-Base Management Community" />
+<meta property="og:title" content="Tech-Base Management Community" />
+<meta property="og:description" content="Where management meets technology, innovation and real-world problem solving. A collaborative, volunteer-led management community for students, professionals and businesses." />
+<meta property="og:image" content="assets/og-image.png" />
+<meta property="og:url" content="https://techbase.example.org/" />
+<meta property="og:locale" content="en_IN" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Tech-Base Management Community" />
+<meta name="twitter:description" content="Learn Together. Build Together. Contribute Together." />
+<meta name="twitter:image" content="assets/og-image.png" />
+
+<link rel="canonical" href="https://techbase.example.org/" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/sections.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Tech-Base Management Community",
+  "alternateName": "Tech-Base",
+  "description": "A technology-inspired, volunteer-led management community connecting students, graduates and professionals through collaborative learning, business research, practical projects, open knowledge and AI-driven innovation.",
+  "slogan": "Learn by Doing. Think by Solving. Grow by Building.",
+  "areaServed": "IN",
+  "email": "contact@tech-base.example.org",
+  "url": "https://techbase.example.org/",
+  "sameAs": []
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============ Preloader ============ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__inner">
+    <div class="preloader__mark">TB</div>
+    <div class="preloader__bar"><span></span></div>
+    <div class="preloader__label">Tech-Base</div>
+  </div>
+</div>
+
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+<!-- ============ NAV ============ -->
+<div class="nav-shell" id="navShell">
+  <div class="container">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#home" data-scroll>
+        <span class="brand__mark" aria-hidden="true">TB</span>
+        <span class="brand__text">
+          <b>Tech-Base</b>
+          <small>Management Community</small>
+        </span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-scroll>Home</a></li>
+        <li><a href="#about" data-scroll>About</a></li>
+        <li><a href="#ecosystem" data-scroll>Ecosystem</a></li>
+        <li><a href="#programs" data-scroll>Programs</a></li>
+        <li><a href="#projects" data-scroll>Projects</a></li>
+        <li><a href="#community" data-scroll>Community</a></li>
+        <li><a href="#collaborate" data-scroll>Collaborate</a></li>
+        <li><a href="#contact" data-scroll>Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a class="btn btn--primary btn--sm btn--nav-cta" href="#contact" data-scroll data-intent="membership">
+          Join Community
+        </a>
+        <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg data-icon="menu" aria-hidden="true"></svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <a href="#home" data-scroll>Home <span aria-hidden="true">→</span></a>
+  <a href="#about" data-scroll>About <span aria-hidden="true">→</span></a>
+  <a href="#ecosystem" data-scroll>Ecosystem <span aria-hidden="true">→</span></a>
+  <a href="#programs" data-scroll>Programs <span aria-hidden="true">→</span></a>
+  <a href="#projects" data-scroll>Projects <span aria-hidden="true">→</span></a>
+  <a href="#community" data-scroll>Community <span aria-hidden="true">→</span></a>
+  <a href="#collaborate" data-scroll>Collaborate <span aria-hidden="true">→</span></a>
+  <a href="#contact" data-scroll>Contact <span aria-hidden="true">→</span></a>
+  <a class="btn btn--primary" href="#contact" data-scroll data-intent="membership">Join Community</a>
+</div>
+
+<main id="main">
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__grid-lines"></div>
+    <div class="hero__orb hero__orb--1"></div>
+    <div class="hero__orb hero__orb--2"></div>
+    <div class="hero__orb hero__orb--3"></div>
+    <div class="shape shape--sq"></div>
+    <div class="shape shape--cir"></div>
+    <div class="shape shape--tri"></div>
+    <div class="shape shape--ring"></div>
+  </div>
+
+  <div class="container">
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <span class="badge badge--live">Volunteer-led · Pan-India · Online-first</span>
+        <h1 class="hero__headline" id="hero-title">
+          Where Management Meets <span class="grad-text">Technology</span>, Innovation and Real-World Problem Solving.
+        </h1>
+        <p class="hero__sub">
+          An open, collaborative and action-oriented management community empowering students,
+          professionals and businesses to learn, build, research and solve real-world challenges together.
+        </p>
+
+        <div class="hero__ctas">
+          <a class="btn btn--primary btn--lg" href="#contact" data-scroll data-intent="membership">
+            Join the Community
+            <svg class="arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#ecosystem" data-scroll>
+            Explore Our Ecosystem
+            <svg data-icon="compass" aria-hidden="true"></svg>
+          </a>
+        </div>
+
+        <div class="hero__facts">
+          <span class="badge">8 ecosystem verticals</span>
+          <span class="badge">10 proposed initiatives</span>
+          <span class="badge">Independent &amp; informal</span>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <svg class="network" viewBox="0 0 420 460" role="img" aria-label="Abstract network connecting analytics, business, AI and collaboration">
+          <g class="links">
+            <line class="link" x1="210" y1="230" x2="80" y2="90" />
+            <line class="link" x1="210" y1="230" x2="345" y2="110" />
+            <line class="link" x1="210" y1="230" x2="60" y2="330" />
+            <line class="link" x1="210" y1="230" x2="360" y2="330" />
+            <line class="link" x1="210" y1="230" x2="215" y2="400" />
+            <line class="link" x1="210" y1="230" x2="150" y2="60" />
+            <line class="link" x1="80" y1="90" x2="150" y2="60" />
+            <line class="link" x1="345" y1="110" x2="360" y2="330" />
+            <line class="link" x1="60" y1="330" x2="215" y2="400" />
+          </g>
+          <g>
+            <circle class="node" cx="80" cy="90" r="13" />
+            <circle class="node" cx="345" cy="110" r="10" />
+            <circle class="node" cx="60" cy="330" r="11" />
+            <circle class="node" cx="360" cy="330" r="14" />
+            <circle class="node" cx="215" cy="400" r="9" />
+            <circle class="node" cx="150" cy="60" r="8" />
+            <circle class="node-core" cx="210" cy="230" r="21" />
+          </g>
+          <g class="pulses">
+            <circle class="pulse" r="3.5">
+              <animateMotion dur="4s" repeatCount="indefinite" path="M210,230 L80,90" />
+            </circle>
+            <circle class="pulse" r="3">
+              <animateMotion dur="5s" repeatCount="indefinite" path="M210,230 L345,110" />
+            </circle>
+            <circle class="pulse" r="3.5">
+              <animateMotion dur="6s" repeatCount="indefinite" path="M210,230 L60,330" />
+            </circle>
+            <circle class="pulse" r="3">
+              <animateMotion dur="5.5s" repeatCount="indefinite" path="M210,230 L360,330" />
+            </circle>
+            <circle class="pulse" r="3">
+              <animateMotion dur="4.5s" repeatCount="indefinite" path="M210,230 L215,400" />
+            </circle>
+          </g>
+        </svg>
+
+        <div class="hero-card">
+          <div class="hero-card__top">
+            <span class="hero-card__title">Community activity · sample view</span>
+            <span class="hero-card__live">Live</span>
+          </div>
+          <div class="hero-card__bars" aria-hidden="true">
+            <i style="--h: 42%; --i: 0"></i>
+            <i style="--h: 58%; --i: 1"></i>
+            <i style="--h: 36%; --i: 2"></i>
+            <i style="--h: 74%; --i: 3"></i>
+            <i style="--h: 62%; --i: 4"></i>
+            <i style="--h: 88%; --i: 5"></i>
+            <i style="--h: 52%; --i: 6"></i>
+          </div>
+          <div class="hero-card__rows">
+            <div class="hero-card__row">
+              <svg data-icon="users" aria-hidden="true"></svg> Members collaborating <b>—</b>
+            </div>
+            <div class="hero-card__row">
+              <svg data-icon="folder-kanban" aria-hidden="true"></svg> Active projects <b>—</b>
+            </div>
+            <div class="hero-card__row">
+              <svg data-icon="sparkles" aria-hidden="true"></svg> AI &amp; BI experiments <b>—</b>
+            </div>
+          </div>
+          <div class="hero-card__meter" aria-hidden="true"><span></span></div>
+        </div>
+
+        <span class="hero-chip hero-chip--a"><svg data-icon="bar-chart-3" aria-hidden="true"></svg> Business Analytics</span>
+        <span class="hero-chip hero-chip--b"><svg data-icon="brain-circuit" aria-hidden="true"></svg> AI for Business</span>
+        <span class="hero-chip hero-chip--c"><svg data-icon="handshake" aria-hidden="true"></svg> Collaboration</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">About Tech-Base</span>
+      <h2 id="about-title">Beyond Traditional Management Learning</h2>
+      <p>
+        Management education provides theoretical knowledge, but students often need opportunities to
+        apply their knowledge in practical business environments. Tech-Base aims to bridge this gap by
+        connecting academic learning with real-world business application.
+      </p>
+    </div>
+
+    <div class="about-split">
+      <div class="reveal">
+        <h3 style="font-size: 1.08rem; margin-bottom: 0.9rem">Six key focus areas</h3>
+        <ul class="focus-list reveal-stagger">
+          <li class="focus-item"><svg data-icon="hammer" aria-hidden="true"></svg> Practical Learning</li>
+          <li class="focus-item"><svg data-icon="microscope" aria-hidden="true"></svg> Business Research</li>
+          <li class="focus-item"><svg data-icon="users-round" aria-hidden="true"></svg> Collaborative Projects</li>
+          <li class="focus-item"><svg data-icon="building-2" aria-hidden="true"></svg> Industry Interaction</li>
+          <li class="focus-item"><svg data-icon="brain-circuit" aria-hidden="true"></svg> AI &amp; Technology Innovation</li>
+          <li class="focus-item"><svg data-icon="graduation-cap" aria-hidden="true"></svg> Professional Development</li>
+        </ul>
+      </div>
+
+      <div class="vmp reveal">
+        <article class="vmp-panel">
+          <span class="vmp-panel__label"><svg data-icon="eye" aria-hidden="true"></svg> Vision</span>
+          <h3>A nationally connected management community</h3>
+          <p>
+            To build a collaborative, open and nationally connected management community where
+            individuals learn, build, contribute and solve real-world business problems together.
+          </p>
+        </article>
+
+        <article class="vmp-panel">
+          <span class="vmp-panel__label"><svg data-icon="target" aria-hidden="true"></svg> Mission</span>
+          <h3>Accessible, practical learning</h3>
+          <p>
+            To make practical business and management learning accessible through collaboration,
+            open knowledge, industry exposure, research, technology and innovation.
+          </p>
+        </article>
+
+        <article class="vmp-panel vmp-panel--deep">
+          <span class="vmp-panel__label"><svg data-icon="quote" aria-hidden="true"></svg> Philosophy</span>
+          <p class="philosophy">“Learn by Doing. Think by Solving. Grow by Building.”</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="section-head reveal" style="margin-top: 1rem">
+      <h2 style="font-size: var(--fs-h3)">What We Believe</h2>
+      <p style="font-size: 0.98rem">Five principles that shape how we learn, collaborate and contribute.</p>
+    </div>
+
+    <div class="beliefs reveal-stagger">
+      <article class="belief" tabindex="0">
+        <div class="belief__icon"><svg data-icon="hammer" aria-hidden="true"></svg></div>
+        <h3>Learn by Doing</h3>
+        <p>Understanding grows when knowledge is applied to a real problem, not just a syllabus.</p>
+      </article>
+      <article class="belief" tabindex="0">
+        <div class="belief__icon"><svg data-icon="puzzle" aria-hidden="true"></svg></div>
+        <h3>Think by Solving</h3>
+        <p>Structured problem-solving sharpens judgement and builds decision confidence.</p>
+      </article>
+      <article class="belief" tabindex="0">
+        <div class="belief__icon"><svg data-icon="users-round" aria-hidden="true"></svg></div>
+        <h3>Grow by Collaborating</h3>
+        <p>Multidisciplinary teams produce better questions, and therefore better answers.</p>
+      </article>
+      <article class="belief" tabindex="0">
+        <div class="belief__icon"><svg data-icon="lightbulb" aria-hidden="true"></svg></div>
+        <h3>Innovate with Purpose</h3>
+        <p>Technology and AI matter when they serve a clear business or social need.</p>
+      </article>
+      <article class="belief" tabindex="0">
+        <div class="belief__icon"><svg data-icon="leaf" aria-hidden="true"></svg></div>
+        <h3>Create Meaningful Impact</h3>
+        <p>Contributions should leave a documented, reusable and genuinely useful outcome.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ECOSYSTEM
+     ============================================================ -->
+<section class="section eco" id="ecosystem" aria-labelledby="eco-title">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <span class="eyebrow eyebrow--center">Our Ecosystem</span>
+      <h2 id="eco-title">An Integrated Ecosystem for Learning, Research and Innovation</h2>
+      <p>Eight connected verticals. Members move between them as their interests and experience grow.</p>
+    </div>
+
+    <div class="eco-hub reveal" aria-hidden="true">
+      <div class="eco-ring eco-ring--1"></div>
+      <div class="eco-ring eco-ring--2"></div>
+      <div class="eco-sat eco-sat--a"></div>
+      <div class="eco-sat eco-sat--b"></div>
+      <div class="eco-hub__core">
+        <div>
+          <b>Tech-Base<br />Ecosystem</b>
+          <small>8 verticals</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="eco-grid reveal-stagger">
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="book-open" aria-hidden="true"></svg></span>
+        <h3>Learning and Development</h3>
+        <p>Management frameworks, business skills, Excel, Power BI, SQL, finance and AI learning.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>Structured learning tracks and peer-led study circles designed around applied practice: build a model, write the memo, defend the recommendation.</p>
+        </div></div>
+      </button>
+
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="flask-conical" aria-hidden="true"></svg></span>
+        <h3>Projects and Research Lab</h3>
+        <p>Company analysis, market research, industry research, financial analysis and consulting-style projects.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>Members work in small teams on scoped business questions, producing a research note, dashboard or recommendation deck with clearly stated assumptions.</p>
+        </div></div>
+      </button>
+
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="trophy" aria-hidden="true"></svg></span>
+        <h3>Challenges, Competitions and Events</h3>
+        <p>Caseathons, business hackathons, strategy sprints and analytics challenges.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>Time-boxed formats that simulate real deadlines — teams frame the problem, analyse, and present to a review panel within a fixed window.</p>
+        </div></div>
+      </button>
+
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="library" aria-hidden="true"></svg></span>
+        <h3>Open Knowledge Repository</h3>
+        <p>Business frameworks, reports, dashboards, case studies and research resources.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>An openly shared library of member-produced notes, templates and case write-ups, so learning compounds instead of resetting with every cohort.</p>
+        </div></div>
+      </button>
+
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="brain-circuit" aria-hidden="true"></svg></span>
+        <h3>AI and Business Innovation Lab</h3>
+        <p>AI agents, automation, business intelligence and AI-powered business solutions.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>Experiments in practical AI adoption: workflow automation, BI copilots and analytics tooling — assessed on business usefulness, not novelty.</p>
+        </div></div>
+      </button>
+
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="briefcase-business" aria-hidden="true"></svg></span>
+        <h3>Career and Professional Development</h3>
+        <p>Portfolio development, mentorship, mock interviews and professional readiness.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>Members build a documented body of work — case notes, dashboards, research — that demonstrates capability rather than claiming it.</p>
+        </div></div>
+      </button>
+
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="building-2" aria-hidden="true"></svg></span>
+        <h3>Industry and Corporate Engagement</h3>
+        <p>Business collaborations, expert sessions, corporate challenges and research partnerships.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>Connections with professionals and organizations who share problems, context and feedback with community teams — subject to availability and mutual agreement.</p>
+        </div></div>
+      </button>
+
+      <button class="eco-card" type="button" aria-expanded="false" data-eco>
+        <span class="eco-card__icon"><svg data-icon="network" aria-hidden="true"></svg></span>
+        <h3>Community Network and Chapters</h3>
+        <p>College chapters, campus ambassadors, city representatives and Pan-India networking.</p>
+        <span class="eco-card__more">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></span>
+        <div class="eco-card__detail"><div>
+          <p>A distributed, volunteer-led network. Chapter structures are being designed and will be documented once finalised.</p>
+        </div></div>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     HOW IT WORKS
+     ============================================================ -->
+<section class="section" id="how" aria-labelledby="how-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">How Tech-Base Works</span>
+      <h2 id="how-title">From Learning to Leadership</h2>
+      <p>A member's progression — from first contact to leading a team and publishing work.</p>
+    </div>
+
+    <div class="journey reveal" id="journey">
+      <div class="journey__track" aria-hidden="true"><span class="journey__fill" id="journeyFill"></span></div>
+      <ol class="journey__steps">
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="compass" aria-hidden="true"></svg><b>01</b></span>
+          <div class="jstep__body">
+            <h3>Discover</h3>
+            <p>Find Tech-Base through campus, social channels or a peer, and understand what the community actually does.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="log-in" aria-hidden="true"></svg><b>02</b></span>
+          <div class="jstep__body">
+            <h3>Join</h3>
+            <p>Register your interest, share your background and get onboarded into the community space.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="book-open" aria-hidden="true"></svg><b>03</b></span>
+          <div class="jstep__body">
+            <h3>Learn</h3>
+            <p>Work through learning circles and self-paced tracks on frameworks, analytics tools and business fundamentals.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="users-round" aria-hidden="true"></svg><b>04</b></span>
+          <div class="jstep__body">
+            <h3>Collaborate</h3>
+            <p>Join a small team working on a live question — research, analytics or a strategy sprint.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="hammer" aria-hidden="true"></svg><b>05</b></span>
+          <div class="jstep__body">
+            <h3>Build</h3>
+            <p>Produce the actual output: a dashboard, a research note, a model or a recommendation deck.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="clipboard-check" aria-hidden="true"></svg><b>06</b></span>
+          <div class="jstep__body">
+            <h3>Review</h3>
+            <p>Present to peers and mentors for structured feedback on rigour, assumptions and clarity.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="library" aria-hidden="true"></svg><b>07</b></span>
+          <div class="jstep__body">
+            <h3>Publish</h3>
+            <p>Contribute the work to the Open Knowledge Repository so others can build on it.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="presentation" aria-hidden="true"></svg><b>08</b></span>
+          <div class="jstep__body">
+            <h3>Showcase</h3>
+            <p>Present at community showcases and add the work to a documented portfolio.</p>
+          </div>
+        </li>
+        <li class="jstep">
+          <span class="jstep__dot"><svg data-icon="flag" aria-hidden="true"></svg><b>09</b></span>
+          <div class="jstep__body">
+            <h3>Lead</h3>
+            <p>Take on a project lead, mentor or chapter lead role and guide the next group of members.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROGRAMS
+     ============================================================ -->
+<section class="section section--lavender" id="programs" aria-labelledby="prog-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Programs and Initiatives</span>
+      <h2 id="prog-title">Opportunities to Learn, Build and Contribute</h2>
+      <p>Formats we intend to run across the community. Filter by category to explore them.</p>
+    </div>
+
+    <div class="notice reveal">
+      <svg data-icon="info" aria-hidden="true"></svg>
+      <div>
+        <strong>Proposed initiatives.</strong> These are planned formats, not scheduled events. No dates,
+        sponsors, registrations or completed activities are implied. Availability will be announced through
+        official community channels.
+      </div>
+    </div>
+
+    <div class="filters reveal" id="programFilters" role="group" aria-label="Filter programs by category">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">All <span class="filter__count">10</span></button>
+      <button class="filter" type="button" data-filter="learning" aria-pressed="false">Learning</button>
+      <button class="filter" type="button" data-filter="research" aria-pressed="false">Research</button>
+      <button class="filter" type="button" data-filter="competition" aria-pressed="false">Competition</button>
+      <button class="filter" type="button" data-filter="ai" aria-pressed="false">AI and Technology</button>
+      <button class="filter" type="button" data-filter="networking" aria-pressed="false">Networking</button>
+    </div>
+
+    <div class="prog-grid" id="programGrid">
+      <!-- 1 -->
+      <article class="prog-card" data-cat="competition">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="gavel" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Competition</span>
+        </div>
+        <h3>Management Caseathon</h3>
+        <p>A time-boxed case competition where teams receive a business situation and deliver a structured recommendation.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> team-based, multi-round, judged on problem framing, analysis quality and communication. <strong>Status:</strong> proposed — schedule to be announced.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="prog-card" data-cat="research">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="building-2" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Research</span>
+        </div>
+        <h3>Company Breakdown Series</h3>
+        <p>Deep-dive analyses of real companies — business model, financials, competitive position and risks.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> written breakdown plus a discussion session, contributed to the knowledge repository. <strong>Status:</strong> proposed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="prog-card" data-cat="ai">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="brain-circuit" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">AI &amp; Technology</span>
+        </div>
+        <h3>AI for Business Buildathon</h3>
+        <p>Teams build a practical AI-assisted solution for a defined business workflow and defend its usefulness.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> build sprint with a demo day; judged on business relevance, usability and responsible use. <strong>Status:</strong> proposed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="prog-card" data-cat="competition">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="bar-chart-3" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Competition</span>
+        </div>
+        <h3>Business Analytics Challenge</h3>
+        <p>An analytics contest built around a dataset, where teams derive insight and present a decision recommendation.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> dataset release, submission window, judged on rigour and storytelling. <strong>Status:</strong> proposed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="prog-card" data-cat="networking">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="messages-square" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Networking</span>
+        </div>
+        <h3>Management AMA</h3>
+        <p>Open “ask me anything” sessions with practitioners, educators and industry professionals.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> moderated Q&amp;A, recorded notes shared afterwards. <strong>Status:</strong> proposed — guests to be confirmed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="prog-card" data-cat="research">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="lightbulb" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Research</span>
+        </div>
+        <h3>Business Problem of the Week</h3>
+        <p>A weekly open question the community solves in public, building a shared library of applied thinking.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> posted prompt, community responses, curated summary. <strong>Status:</strong> proposed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 7 -->
+      <article class="prog-card" data-cat="learning">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="book-open" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Learning</span>
+        </div>
+        <h3>Management Learning Circle</h3>
+        <p>Peer-led study circles covering frameworks, analytics tools, finance fundamentals and business writing.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> small recurring groups with applied exercises each session. <strong>Status:</strong> proposed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 8 -->
+      <article class="prog-card" data-cat="learning">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="graduation-cap" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Learning</span>
+        </div>
+        <h3>Expert Masterclass</h3>
+        <p>Focused sessions led by practitioners on a specific business or analytics capability.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> session plus practical takeaway exercise. <strong>Status:</strong> proposed — speakers to be confirmed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 9 -->
+      <article class="prog-card" data-cat="competition">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="timer" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Competition</span>
+        </div>
+        <h3>Strategy Sprint</h3>
+        <p>A short, high-intensity sprint where teams frame a strategic decision and present a defensible path forward.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> single-session sprint with structured review. <strong>Status:</strong> proposed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+
+      <!-- 10 -->
+      <article class="prog-card" data-cat="research">
+        <div class="prog-card__top">
+          <span class="prog-card__icon"><svg data-icon="presentation" aria-hidden="true"></svg></span>
+          <span class="prog-card__cat">Research</span>
+        </div>
+        <h3>Project Showcase</h3>
+        <p>Community teams present completed research and analytics work to peers, mentors and guests.</p>
+        <div class="prog-card__detail"><div>
+          <p><strong>Format:</strong> presentation day with feedback panels; outputs added to the repository. <strong>Status:</strong> proposed.</p>
+        </div></div>
+        <div class="prog-card__foot">
+          <button class="prog-card__more" type="button" aria-expanded="false">Learn more <svg data-icon="chevron-down" aria-hidden="true"></svg></button>
+          <span class="prog-card__status">Proposed</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="empty-state" id="programEmpty">
+      <svg data-icon="search-x" aria-hidden="true"></svg>
+      <h3>No programs in this category yet</h3>
+      <p>Try another filter — more formats are being planned.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECTS
+     ============================================================ -->
+<section class="section" id="projects" aria-labelledby="proj-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Projects and Research</span>
+      <h2 id="proj-title">Turning Business Questions into Practical Solutions</h2>
+      <p>
+        The kind of research and analytics work the community intends to produce. Every card below is a
+        <strong>demonstration project</strong> showing the expected format and rigour.
+      </p>
+    </div>
+
+    <div class="notice reveal">
+      <svg data-icon="info" aria-hidden="true"></svg>
+      <div>
+        <strong>Demonstration projects.</strong> These are illustrative examples created to show structure and
+        methodology. They are not completed community projects, and no company, partner or client
+        relationship is implied.
+      </div>
+    </div>
+
+    <div class="filter-bar reveal">
+      <div class="search">
+        <svg data-icon="search" aria-hidden="true"></svg>
+        <label class="sr-only" for="projSearch">Search projects</label>
+        <input type="search" id="projSearch" placeholder="Search by title, category, tool or method…" autocomplete="off" />
+        <button class="search__clear" type="button" id="projSearchClear" aria-label="Clear search">
+          <svg data-icon="x" aria-hidden="true"></svg>
+        </button>
+      </div>
+      <span class="result-count" id="projCount" aria-live="polite">10 demonstration projects</span>
+    </div>
+
+    <div class="filters reveal" id="projectFilters" role="group" aria-label="Filter projects by category">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter" type="button" data-filter="strategy" aria-pressed="false">Business Strategy</button>
+      <button class="filter" type="button" data-filter="company" aria-pressed="false">Company Analysis</button>
+      <button class="filter" type="button" data-filter="industry" aria-pressed="false">Industry Research</button>
+      <button class="filter" type="button" data-filter="market" aria-pressed="false">Market Research</button>
+      <button class="filter" type="button" data-filter="finance" aria-pressed="false">Financial Analysis</button>
+      <button class="filter" type="button" data-filter="analytics" aria-pressed="false">Business Analytics</button>
+      <button class="filter" type="button" data-filter="ops" aria-pressed="false">Operations &amp; Supply Chain</button>
+      <button class="filter" type="button" data-filter="ai" aria-pressed="false">AI &amp; Business Innovation</button>
+      <button class="filter" type="button" data-filter="policy" aria-pressed="false">Policy Research</button>
+      <button class="filter" type="button" data-filter="consulting" aria-pressed="false">Consulting Case Studies</button>
+    </div>
+
+    <div class="proj-grid" id="projectGrid">
+      <!-- 1 -->
+      <article class="proj-card" data-cat="strategy" data-search="market entry strategy d2c apparel strategy porter five forces tam">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Business Strategy</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>Market Entry Strategy for a D2C Apparel Brand</h3>
+        <p class="proj-card__overview">A framework-driven evaluation of whether a regional direct-to-consumer apparel label should expand into two adjacent state markets.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Assess entry attractiveness, competitive intensity and the operating model required for expansion.</span></div>
+          <div><span>Methods</span><span>Porter's Five Forces, TAM/SAM/SOM sizing, competitor mapping, channel economics.</span></div>
+          <div><span>Findings</span><span>Illustrative output: a phased entry recommendation with two prioritised markets and a go/no-go checklist.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 3 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Excel</span><span>PowerPoint</span><span>Secondary Research</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="1">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="proj-card" data-cat="company" data-search="company analysis quick commerce unit economics business model">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Company Analysis</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>Quick-Commerce Player: Business Model Breakdown</h3>
+        <p class="proj-card__overview">A structured breakdown of a quick-commerce operator's revenue model, cost structure and growth levers.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Explain how the business makes money and where margin pressure originates.</span></div>
+          <div><span>Methods</span><span>Business Model Canvas, unit-economics modelling, competitive benchmarking.</span></div>
+          <div><span>Findings</span><span>Illustrative output: contribution-margin drivers and three levers to improve basket economics.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 2 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Excel</span><span>Business Model Canvas</span><span>Benchmarking</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="2">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="proj-card" data-cat="industry" data-search="industry research EV charging infrastructure India outlook">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Industry Research</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>EV Charging Infrastructure in India: Industry Note</h3>
+        <p class="proj-card__overview">An industry overview mapping demand drivers, value-chain participants and structural bottlenecks.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Map the industry structure and identify where value is likely to concentrate.</span></div>
+          <div><span>Methods</span><span>Value-chain mapping, PESTLE, secondary data synthesis.</span></div>
+          <div><span>Findings</span><span>Illustrative output: a bottleneck map and a shortlist of commercially viable segments.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 4 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>PESTLE</span><span>Secondary Research</span><span>Value-Chain Mapping</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="3">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="proj-card" data-cat="market" data-search="market research customer preference survey retail">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Market Research</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>Customer Preference Study for a Regional Retail Chain</h3>
+        <p class="proj-card__overview">A survey-led study to understand what drives store choice and repeat purchase in a mid-size city.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Identify the attributes that most influence store preference and loyalty.</span></div>
+          <div><span>Methods</span><span>Questionnaire design, sampling plan, descriptive analysis, segment comparison.</span></div>
+          <div><span>Findings</span><span>Illustrative output: ranked preference drivers and a prioritised improvement list.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 3 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Survey Design</span><span>Excel</span><span>Descriptive Statistics</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="4">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="proj-card" data-cat="finance" data-search="financial analysis ratio analysis SME profitability">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Financial Analysis</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>Ratio Analysis of a Mid-Size Manufacturing Firm</h3>
+        <p class="proj-card__overview">A multi-year financial ratio review to surface liquidity, efficiency and profitability signals.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Diagnose financial health trends and flag areas requiring management attention.</span></div>
+          <div><span>Methods</span><span>Common-size statements, ratio analysis, DuPont decomposition, trend charts.</span></div>
+          <div><span>Findings</span><span>Illustrative output: a three-flag diagnosis with suggested monitoring metrics.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 2 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Excel</span><span>Ratio Analysis</span><span>DuPont Model</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="5">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="proj-card" data-cat="analytics" data-search="business analytics dashboard sales performance power bi KPIs">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Business Analytics</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>Sales Performance Dashboard: KPI Design Study</h3>
+        <p class="proj-card__overview">Designing a decision-useful sales dashboard — choosing KPIs, defining them precisely and testing readability.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Build a KPI set that supports weekly commercial decisions rather than reporting for its own sake.</span></div>
+          <div><span>Methods</span><span>KPI tree design, data cleaning, dashboard prototyping, usability review.</span></div>
+          <div><span>Findings</span><span>Illustrative output: a one-screen dashboard specification with definitions and refresh cadence.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 3 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Power BI</span><span>Power Query</span><span>SQL</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="6">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 7 -->
+      <article class="proj-card" data-cat="ops" data-search="operations supply chain inventory lead time fulfilment">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Operations &amp; Supply Chain</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>Inventory and Fulfilment Efficiency Review</h3>
+        <p class="proj-card__overview">An operational review of stock cover, order fulfilment and the trade-off between service level and holding cost.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Identify where inventory is over- or under-positioned relative to demand.</span></div>
+          <div><span>Methods</span><span>ABC classification, days-of-cover analysis, process mapping.</span></div>
+          <div><span>Findings</span><span>Illustrative output: category-level rebalancing suggestions and monitoring measures.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 2 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Excel</span><span>ABC Analysis</span><span>Process Mapping</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="7">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 8 -->
+      <article class="proj-card" data-cat="ai" data-search="AI business innovation adoption framework automation assessment">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">AI &amp; Business Innovation</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>AI Adoption Readiness Framework for SMEs</h3>
+        <p class="proj-card__overview">A practical assessment framework to help small businesses decide where AI adoption would actually pay off.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Separate high-value AI use cases from low-return experiments for resource-constrained firms.</span></div>
+          <div><span>Methods</span><span>Use-case scoring matrix, workflow audit, cost-benefit screening.</span></div>
+          <div><span>Findings</span><span>Illustrative output: a tiered use-case shortlist with effort and impact ratings.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 3 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Process Audit</span><span>Scoring Matrix</span><span>Cost-Benefit</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="8">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 9 -->
+      <article class="proj-card" data-cat="policy" data-search="policy research MSME export district data trade">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Policy Research</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>MSME Export Enablement: District-Level Data Review</h3>
+        <p class="proj-card__overview">A secondary-data review of district-level export patterns to identify where support interventions could matter most.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Understand concentration of export activity and where capability gaps are likely.</span></div>
+          <div><span>Methods</span><span>Public dataset analysis, clustering, comparative district profiling.</span></div>
+          <div><span>Findings</span><span>Illustrative output: priority districts and a set of questions for primary validation.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 4 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Excel</span><span>Power BI</span><span>Secondary Research</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="9">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+
+      <!-- 10 -->
+      <article class="proj-card" data-cat="consulting" data-search="consulting case study profitability turnaround issue tree">
+        <div class="proj-card__head">
+          <span class="proj-card__cat">Consulting Case Studies</span>
+          <span class="proj-card__demo">Demonstration</span>
+        </div>
+        <h3>Profitability Decline: A Consulting-Style Case</h3>
+        <p class="proj-card__overview">A structured diagnostic of a profitability decline, built as a consulting case with an issue tree and hypothesis-led analysis.</p>
+        <div class="proj-card__detail"><div class="proj-card__meta">
+          <div><span>Objective</span><span>Isolate the root causes of margin erosion and recommend the highest-leverage fixes.</span></div>
+          <div><span>Methods</span><span>Issue tree, hypothesis-led analysis, MECE segmentation, prioritisation matrix.</span></div>
+          <div><span>Findings</span><span>Illustrative output: a ranked set of interventions with expected effort and impact.</span></div>
+          <div><span>Contributors</span><span>Illustrative team of 3 members.</span></div>
+        </div></div>
+        <div class="proj-card__tools"><span>Issue Tree</span><span>MECE</span><span>PowerPoint</span></div>
+        <div class="proj-card__foot">
+          <button class="proj-card__more link-arrow" type="button" data-project="10">View Project <svg data-icon="arrow-right" aria-hidden="true"></svg></button>
+        </div>
+      </article>
+    </div>
+
+    <div class="empty-state" id="projectEmpty">
+      <svg data-icon="search-x" aria-hidden="true"></svg>
+      <h3>No projects match your search</h3>
+      <p>Try a different keyword or reset the category filter.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WHO CAN JOIN
+     ============================================================ -->
+<section class="section section--lavender" id="who" aria-labelledby="who-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Who Can Join?</span>
+      <h2 id="who-title">A Community for Everyone Building the Future of Business</h2>
+      <p>Participation is open across career stages — what matters is willingness to learn and contribute.</p>
+    </div>
+
+    <div class="aud-grid reveal-stagger">
+      <article class="aud-card">
+        <div class="aud-card__icon"><svg data-icon="graduation-cap" aria-hidden="true"></svg></div>
+        <h3>Students and Graduates</h3>
+        <p>BBA, BCom, MBA, PGDM, Economics, Business Analytics and other management students.</p>
+        <div class="aud-card__value">
+          <b>What you gain</b>
+          Applied experience, team projects and a documented portfolio before your first role.
+        </div>
+      </article>
+
+      <article class="aud-card">
+        <div class="aud-card__icon"><svg data-icon="briefcase-business" aria-hidden="true"></svg></div>
+        <h3>Working Professionals</h3>
+        <p>Business analysts, consultants, researchers, managers and finance professionals.</p>
+        <div class="aud-card__value">
+          <b>What you gain</b>
+          A collaborative space to mentor, test ideas and work on problems outside your day job.
+        </div>
+      </article>
+
+      <article class="aud-card">
+        <div class="aud-card__icon"><svg data-icon="rocket" aria-hidden="true"></svg></div>
+        <h3>Entrepreneurs and Businesses</h3>
+        <p>Startups, SMEs, founders, entrepreneurs and organizations.</p>
+        <div class="aud-card__value">
+          <b>What you gain</b>
+          Access to emerging talent and research capacity for defined business questions.
+        </div>
+      </article>
+
+      <article class="aud-card">
+        <div class="aud-card__icon"><svg data-icon="user-check" aria-hidden="true"></svg></div>
+        <h3>Mentors and Industry Experts</h3>
+        <p>Industry leaders, educators, researchers and experienced professionals.</p>
+        <div class="aud-card__value">
+          <b>What you gain</b>
+          A way to give back through sessions, feedback and project guidance — at your availability.
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MEMBERSHIP
+     ============================================================ -->
+<section class="section" id="community" aria-labelledby="community-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Membership and Community</span>
+      <h2 id="community-title">Find Your Place in the Tech-Base Ecosystem</h2>
+      <p>
+        Membership categories reflect participation and contribution — not a paid tier or a credential.
+        Everyone starts as a member and grows through involvement.
+      </p>
+    </div>
+
+    <div class="member-layout">
+      <div class="reveal">
+        <h3 style="font-size: 1.05rem; margin-bottom: 0.85rem">Membership categories</h3>
+        <ul class="tier-list">
+          <li class="tier"><span class="tier__dot"></span><div><b>General Member</b><small>Registered and exploring the community.</small></div></li>
+          <li class="tier"><span class="tier__dot"></span><div><b>Active Member</b><small>Regularly taking part in sessions and discussions.</small></div></li>
+          <li class="tier"><span class="tier__dot"></span><div><b>Contributor</b><small>Contributing to shared knowledge and community output.</small></div></li>
+          <li class="tier"><span class="tier__dot"></span><div><b>Project Contributor</b><small>Working within a project or research team.</small></div></li>
+          <li class="tier"><span class="tier__dot"></span><div><b>Project Lead</b><small>Leading a team and owning project delivery.</small></div></li>
+          <li class="tier"><span class="tier__dot"></span><div><b>Chapter Lead</b><small>Building and coordinating a local chapter.</small></div></li>
+          <li class="tier"><span class="tier__dot"></span><div><b>Mentor</b><small>Guiding members with professional experience.</small></div></li>
+          <li class="tier"><span class="tier__dot"></span><div><b>Community Fellow</b><small>Long-term contributors supporting the community's direction.</small></div></li>
+        </ul>
+        <p style="font-size: 0.8rem; margin-top: 0.85rem; color: var(--text-muted)">
+          Category definitions are indicative and may be refined as the community structure is formalised.
+        </p>
+      </div>
+
+      <div class="reveal">
+        <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem">What membership offers</h3>
+        <p style="font-size: 0.9rem">Practical, collaborative and portfolio-oriented — with no guaranteed outcomes attached.</p>
+        <ul class="benefit-list">
+          <li><svg data-icon="check" aria-hidden="true"></svg> Practical business learning through applied exercises</li>
+          <li><svg data-icon="check" aria-hidden="true"></svg> Multidisciplinary teamwork across business and technology</li>
+          <li><svg data-icon="check" aria-hidden="true"></svg> Research and project participation</li>
+          <li><svg data-icon="check" aria-hidden="true"></svg> Portfolio development with documented work</li>
+          <li><svg data-icon="check" aria-hidden="true"></svg> AI and business technology exposure</li>
+          <li><svg data-icon="check" aria-hidden="true"></svg> Industry interaction and professional feedback</li>
+          <li><svg data-icon="check" aria-hidden="true"></svg> Leadership and collaboration skills</li>
+        </ul>
+
+        <h3 style="font-size: 1.05rem; margin: 1.6rem 0 0.2rem">Membership journey</h3>
+        <div class="mflow">
+          <span class="mflow__step"><i>01</i> Register</span>
+          <svg class="mflow__arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          <span class="mflow__step"><i>02</i> Onboarding</span>
+          <svg class="mflow__arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          <span class="mflow__step"><i>03</i> Learn</span>
+          <svg class="mflow__arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          <span class="mflow__step"><i>04</i> Collaborate</span>
+          <svg class="mflow__arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          <span class="mflow__step"><i>05</i> Contribute</span>
+          <svg class="mflow__arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          <span class="mflow__step"><i>06</i> Build Portfolio</span>
+          <svg class="mflow__arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          <span class="mflow__step"><i>07</i> Lead</span>
+        </div>
+
+        <div style="margin-top: 1.6rem; display: flex; flex-wrap: wrap; gap: 0.65rem">
+          <a class="btn btn--primary" href="#contact" data-scroll data-intent="membership">
+            Join the Community
+            <svg class="arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          </a>
+        </div>
+        <p style="font-size: 0.79rem; margin-top: 0.85rem; color: var(--text-muted)">
+          Tech-Base is an independent, informal and volunteer-led community. It is not a registered company,
+          a university, a placement agency, or a provider of guaranteed internships, certifications or employment.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     COLLABORATION
+     ============================================================ -->
+<section class="section collab" id="collaborate" aria-labelledby="collab-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Business and Industry Collaboration</span>
+      <h2 id="collab-title">Connect With Emerging Talent. Collaborate on Real Business Challenges.</h2>
+      <p>
+        We aim to connect businesses, startups and organizations with emerging management talent through
+        research, analytics, collaborative projects and innovation.
+      </p>
+    </div>
+
+    <ul class="collab-areas reveal-stagger">
+      <li class="collab-area"><svg data-icon="microscope" aria-hidden="true"></svg> Business Research</li>
+      <li class="collab-area"><svg data-icon="chart-no-axes-combined" aria-hidden="true"></svg> Market Research</li>
+      <li class="collab-area"><svg data-icon="swords" aria-hidden="true"></svg> Competitor Analysis</li>
+      <li class="collab-area"><svg data-icon="bar-chart-3" aria-hidden="true"></svg> Business Analytics</li>
+      <li class="collab-area"><svg data-icon="landmark" aria-hidden="true"></svg> Financial Analysis</li>
+      <li class="collab-area"><svg data-icon="boxes" aria-hidden="true"></svg> Operational Research</li>
+      <li class="collab-area"><svg data-icon="brain-circuit" aria-hidden="true"></svg> AI Adoption Research</li>
+      <li class="collab-area"><svg data-icon="users-round" aria-hidden="true"></svg> Student Consulting Projects</li>
+      <li class="collab-area"><svg data-icon="presentation" aria-hidden="true"></svg> Guest Lectures &amp; Mentorship</li>
+      <li class="collab-area"><svg data-icon="trophy" aria-hidden="true"></svg> Case Competitions</li>
+    </ul>
+
+    <div class="scp reveal">
+      <div class="scp__head">
+        <div>
+          <span class="badge">Programme framework</span>
+          <h3 style="margin-top: 0.7rem">Tech-Base Student Consulting Program (TB-SCP)</h3>
+          <p>
+            A structured way for organizations to bring a defined business question to a supervised student
+            team. Projects depend on availability, selection, permissions and appropriate supervision.
+          </p>
+        </div>
+      </div>
+
+      <ol class="scp-steps">
+        <li class="scp-step"><b>Problem Identification</b><small>The organization defines a scoped, solvable business question.</small></li>
+        <li class="scp-step"><b>Project Formulation</b><small>Objectives, deliverables, timeline and constraints are agreed in writing.</small></li>
+        <li class="scp-step"><b>Student Team Selection</b><small>A team is formed based on the skills the problem requires.</small></li>
+        <li class="scp-step"><b>Research and Execution</b><small>The team works the problem with defined check-ins and supervision.</small></li>
+        <li class="scp-step"><b>Presentation and Delivery</b><small>Findings and recommendations are presented to the organization.</small></li>
+        <li class="scp-step"><b>Evaluation and Learning</b><small>Feedback is captured and the work is documented for future learning.</small></li>
+      </ol>
+
+      <div class="scp__ctas">
+        <a class="btn btn--primary" href="#contact" data-scroll data-intent="industry">
+          Submit a Business Problem
+          <svg class="arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+        </a>
+        <a class="btn btn--ghost" href="#contact" data-scroll data-intent="partnership">
+          Become an Industry Partner
+          <svg data-icon="handshake" aria-hidden="true"></svg>
+        </a>
+      </div>
+      <p class="scp__note">
+        Note: engagement is not guaranteed. All projects are subject to availability, team selection,
+        permissions and appropriate supervision. No partnership is implied by submitting an enquiry.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contact Us</span>
+      <h2 id="contact-title">Let's Connect. Let's Collaborate. Let's Build Something Meaningful.</h2>
+      <p>
+        Whether you are a student looking to join, a professional interested in mentoring, or an organization
+        exploring collaboration, we would love to hear from you.
+      </p>
+    </div>
+
+    <div class="contact__wrap">
+      <div class="reveal">
+        <h3 style="font-size: 1.02rem; margin-bottom: 0.4rem">Choose an inquiry type</h3>
+        <p style="font-size: 0.9rem">Selecting one pre-fills the form on the right.</p>
+
+        <div class="inq-list" id="inqList" role="group" aria-label="Inquiry categories">
+          <button class="inq" type="button" data-inquiry="general">
+            <span class="inq__icon"><svg data-icon="message-circle" aria-hidden="true"></svg></span>
+            <span><b>General Inquiry</b><small>Questions about the community, website or anything else.</small></span>
+          </button>
+          <button class="inq" type="button" data-inquiry="membership">
+            <span class="inq__icon"><svg data-icon="user-plus" aria-hidden="true"></svg></span>
+            <span><b>Membership and Student Participation</b><small>Joining the community or taking part in projects.</small></span>
+          </button>
+          <button class="inq" type="button" data-inquiry="industry">
+            <span class="inq__icon"><svg data-icon="building-2" aria-hidden="true"></svg></span>
+            <span><b>Industry and Business Collaboration</b><small>Bringing a business problem or research question.</small></span>
+          </button>
+          <button class="inq" type="button" data-inquiry="partnership">
+            <span class="inq__icon"><svg data-icon="handshake" aria-hidden="true"></svg></span>
+            <span><b>Mentorship and Partnership</b><small>Mentoring, expert sessions or institutional partnerships.</small></span>
+          </button>
+        </div>
+
+        <div class="notice" style="margin-top: 1.35rem; margin-bottom: 0">
+          <svg data-icon="shield-check" aria-hidden="true"></svg>
+          <div>
+            <strong>Official contact details are pending.</strong> The email address shown on this site is a
+            placeholder until the community's official channels are confirmed. Submissions sent through the
+            form go to the configured backend mailbox.
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-card reveal">
+        <div class="contact-card__head">
+          <div>
+            <h3>Send an inquiry</h3>
+            <p id="formMode">Form backend: checking…</p>
+          </div>
+          <span class="badge badge--outline" id="formBadge">Required fields marked *</span>
+        </div>
+
+        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+
+        <form id="contactForm" novalidate autocomplete="on">
+          <div class="form-grid">
+            <div class="field">
+              <label for="fullName">Full Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="fullName" name="fullName" required autocomplete="name" maxlength="120" aria-describedby="err-fullName" placeholder="Your full name" />
+              <span class="field__error" id="err-fullName"><svg data-icon="alert-circle" aria-hidden="true"></svg><span></span></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email Address <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email" maxlength="180" aria-describedby="err-email" placeholder="you@example.com" />
+              <span class="field__error" id="err-email"><svg data-icon="alert-circle" aria-hidden="true"></svg><span></span></span>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone Number <span class="opt">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" maxlength="20" aria-describedby="err-phone" placeholder="+91 00000 00000" />
+              <span class="field__error" id="err-phone"><svg data-icon="alert-circle" aria-hidden="true"></svg><span></span></span>
+            </div>
+
+            <div class="field">
+              <label for="organization">Organization / College <span class="opt">(optional)</span></label>
+              <input type="text" id="organization" name="organization" autocomplete="organization" maxlength="140" placeholder="Company, college or institution" />
+            </div>
+
+            <div class="field">
+              <label for="role">Your Role</label>
+              <select id="role" name="role">
+                <option value="">Select a role</option>
+                <option value="Student">Student</option>
+                <option value="Professional">Professional</option>
+                <option value="Entrepreneur">Entrepreneur</option>
+                <option value="Mentor">Mentor</option>
+                <option value="Organization">Organization</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="inquiryType">Inquiry Type <span class="req" aria-hidden="true">*</span></label>
+              <select id="inquiryType" name="inquiryType" required aria-describedby="err-inquiryType">
+                <option value="">Select an inquiry type</option>
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Membership and Student Participation">Membership and Student Participation</option>
+                <option value="Industry and Business Collaboration">Industry and Business Collaboration</option>
+                <option value="Mentorship and Partnership">Mentorship and Partnership</option>
+              </select>
+              <span class="field__error" id="err-inquiryType"><svg data-icon="alert-circle" aria-hidden="true"></svg><span></span></span>
+            </div>
+
+            <div class="field field--full">
+              <label for="subject">Subject <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="subject" name="subject" required maxlength="160" aria-describedby="err-subject" placeholder="A short summary of your inquiry" />
+              <span class="field__error" id="err-subject"><svg data-icon="alert-circle" aria-hidden="true"></svg><span></span></span>
+            </div>
+
+            <div class="field field--full">
+              <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" required maxlength="4000" aria-describedby="err-message" placeholder="Tell us what you would like to discuss, collaborate on or ask about."></textarea>
+              <span class="field__error" id="err-message"><svg data-icon="alert-circle" aria-hidden="true"></svg><span></span></span>
+            </div>
+
+            <!-- Honeypot: hidden from users and assistive tech -->
+            <div class="honeypot" aria-hidden="true">
+              <label for="website">Website</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+            <input type="hidden" name="formStartedAt" id="formStartedAt" value="" />
+            <input type="hidden" name="source" value="website-contact" />
+
+            <div class="field field--full">
+              <label class="check" for="consent">
+                <input type="checkbox" id="consent" name="consent" required aria-describedby="err-consent" />
+                <span>
+                  I agree that the details I submit may be used to respond to this inquiry, in line with the
+                  community's privacy policy. <span class="req" aria-hidden="true">*</span>
+                </span>
+              </label>
+              <span class="field__error" id="err-consent"><svg data-icon="alert-circle" aria-hidden="true"></svg><span></span></span>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.35rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.85rem">
+            <button class="btn btn--primary btn--lg" type="submit" id="submitBtn" data-loading="false">
+              <span class="btn__spinner" aria-hidden="true"></span>
+              <span class="btn__label">Send Inquiry</span>
+              <svg class="arrow" data-icon="send" aria-hidden="true"></svg>
+            </button>
+            <span class="field-hint">We aim to respond within a few working days. This is a volunteer-run inbox.</span>
+          </div>
+
+          <p class="privacy-note">
+            Your details are used only to respond to your inquiry. This site includes spam protection
+            (honeypot + minimum completion time) and server-side validation.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="section section--lavender" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="faq-layout">
+      <div class="faq-aside reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2 id="faq-title">Questions, Answered</h2>
+        <p style="font-size: 0.93rem">
+          Clear answers about how Tech-Base works. Where a policy is not yet finalised, we say so rather than
+          inventing one.
+        </p>
+        <div class="faq-aside__card">
+          <h3>Still have a question?</h3>
+          <p>Send it through the contact form and the community team will respond.</p>
+          <a class="btn btn--light btn--sm" href="#contact" data-scroll>
+            Ask a question
+            <svg class="arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="accordion reveal" id="faqAccordion">
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p1">
+              What is Tech-Base Management Community?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p1" data-open="false" role="region"><div>
+            <p>
+              Tech-Base is a technology-inspired management community connecting students, graduates and
+              professionals through collaborative learning, business research, practical projects, open
+              knowledge and AI-driven innovation. It is independent, informal and volunteer-led — not a
+              registered company, university or placement agency.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p2">
+              Who can join?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p2" data-open="false" role="region"><div>
+            <p>
+              Students and graduates in management, commerce, economics and analytics; working professionals
+              such as analysts, consultants and researchers; entrepreneurs and businesses; and mentors or
+              industry experts who want to contribute.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p3">
+              Is membership free?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p3" data-open="false" role="region"><div>
+            <p>
+              <span class="faq-tbc">Subject to confirmation</span><br />
+              A formal membership fee structure has not been announced. As a volunteer-led community, core
+              participation is intended to be accessible. Any future fees for specific programmes, materials or
+              events would be stated clearly in advance.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p4">
+              How can students participate in projects?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p4" data-open="false" role="region"><div>
+            <p>
+              Register interest through the contact form (Membership and Student Participation), complete
+              onboarding, and then express interest in open project calls. Teams are formed based on the skills
+              a problem requires. Project availability varies and participation is not guaranteed.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p5">
+              Can working professionals become mentors?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p5" data-open="false" role="region"><div>
+            <p>
+              Yes. Professionals can contribute as mentors through expert sessions, project feedback and
+              guidance. Use the Mentorship and Partnership inquiry type to introduce yourself and the areas you
+              can support.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p6">
+              How can businesses collaborate?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p6" data-open="false" role="region"><div>
+            <p>
+              Submit a defined business problem or research question through the Industry and Business
+              Collaboration inquiry type. The TB-SCP framework covers problem identification, project
+              formulation, team selection, execution, delivery and evaluation. Engagement depends on
+              availability, selection, permissions and appropriate supervision.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p7">
+              Does Tech-Base provide internships or placements?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p7" data-open="false" role="region"><div>
+            <p>
+              No. Tech-Base is a learning and collaboration community, not a placement agency. It does not
+              promise jobs, internships, certifications or any guaranteed outcome. What it offers is applied
+              experience, teamwork and a documented portfolio.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p8">
+              How can someone start a college chapter?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p8" data-open="false" role="region"><div>
+            <p>
+              <span class="faq-tbc">Subject to confirmation</span><br />
+              A formal chapter framework — including eligibility, responsibilities and approval — is still being
+              designed. Until it is published, send an expression of interest through the contact form and the
+              team will follow up once the structure is finalised.
+            </p>
+          </div></div>
+        </div>
+
+        <div class="acc-item">
+          <h3 style="margin: 0">
+            <button class="acc-trigger" type="button" aria-expanded="false" aria-controls="faq-p9">
+              How can I contact the community?
+              <span class="acc-trigger__icon"><svg data-icon="plus" aria-hidden="true"></svg></span>
+            </button>
+          </h3>
+          <div class="acc-panel" id="faq-p9" data-open="false" role="region"><div>
+            <p>
+              Use the contact form on this page — it is the most reliable route. Official email addresses and
+              social profiles are shown as placeholders until the community's official channels are confirmed.
+            </p>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA
+     ============================================================ -->
+<section class="final-cta" aria-labelledby="cta-title">
+  <div class="final-cta__ring final-cta__ring--1" aria-hidden="true"></div>
+  <div class="final-cta__ring final-cta__ring--2" aria-hidden="true"></div>
+  <div class="container">
+    <div class="reveal">
+      <h2 id="cta-title">Don't Just Learn Management. Build Management Solutions.</h2>
+      <p>Join a collaborative ecosystem where knowledge turns into action, ideas become projects and people grow together.</p>
+      <div class="final-cta__ctas">
+        <a class="btn btn--ghost btn--lg" href="#contact" data-scroll data-intent="membership">
+          Become a Member
+          <svg class="arrow" data-icon="arrow-right" aria-hidden="true"></svg>
+        </a>
+        <a class="btn btn--light btn--lg" href="#contact" data-scroll data-intent="industry">
+          Collaborate With Us
+          <svg data-icon="handshake" aria-hidden="true"></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__top">
+      <div class="footer__col">
+        <a class="brand" href="#home" data-scroll>
+          <span class="brand__mark" aria-hidden="true">TB</span>
+          <span class="brand__text">
+            <b>Tech-Base</b>
+            <small>Management Community</small>
+          </span>
+        </a>
+        <p class="footer__tagline">Learn Together. Build Together. Contribute Together.</p>
+        <p class="footer__note">
+          An independent, informal and volunteer-led community. Not a registered company, university or
+          placement agency. No employment or certification outcomes are guaranteed.
+        </p>
+        <div class="footer__social">
+          <!-- Placeholders: replace with official URLs when confirmed -->
+          <a href="#" aria-label="LinkedIn (link pending)" data-placeholder="LinkedIn">
+            <svg data-icon="linkedin" aria-hidden="true"></svg>
+          </a>
+          <a href="#" aria-label="Instagram (link pending)" data-placeholder="Instagram">
+            <svg data-icon="instagram" aria-hidden="true"></svg>
+          </a>
+          <a href="#contact" data-scroll aria-label="Contact us">
+            <svg data-icon="mail" aria-hidden="true"></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about" data-scroll>About</a></li>
+          <li><a href="#ecosystem" data-scroll>Ecosystem</a></li>
+          <li><a href="#programs" data-scroll>Programs</a></li>
+          <li><a href="#projects" data-scroll>Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Participate</h4>
+        <ul>
+          <li><a href="#contact" data-scroll data-intent="membership">Join Community</a></li>
+          <li><a href="#community" data-scroll>Membership</a></li>
+          <li><a href="#collaborate" data-scroll>Collaborate</a></li>
+          <li><a href="#contact" data-scroll data-intent="partnership">Become a Mentor</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#contact" data-scroll>Contact Us</a></li>
+          <li><a href="#" data-placeholder="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" data-placeholder="Instagram">Instagram</a></li>
+        </ul>
+        <p class="footer__note" style="margin-top: 0.9rem">
+          Official social links pending confirmation.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> Tech-Base Management Community. All rights reserved.</span>
+      <ul class="footer__legal">
+        <li><a href="#" data-legal="privacy">Privacy Policy</a></li>
+        <li><a href="#" data-legal="terms">Terms and Conditions</a></li>
+        <li><a href="#" data-legal="guidelines">Community Guidelines</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg data-icon="arrow-up" aria-hidden="true"></svg>
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ============================================================
+     MODAL
+     ============================================================ -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal__scrim" data-modal-close></div>
+  <div class="modal__panel" role="document">
+    <button class="modal__close" type="button" data-modal-close aria-label="Close dialog">
+      <svg data-icon="x" aria-hidden="true"></svg>
+    </button>
+    <div class="modal__body" id="modalBody"></div>
+  </div>
+</div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
